@@ -1,0 +1,17 @@
+# build artifacts
+amp_sim
+*.o
+*.out
+__pycache__/
+*.pyc
+
+# generated audio. Cab IRs are assets: ir/*.wav is tracked.
+demo/
+/di.wav
+/out.wav
+
+# machine-specific calibration (per device/rate/link)
+profiles.json
+profiles.json.tmp
+
+.DS_Store
