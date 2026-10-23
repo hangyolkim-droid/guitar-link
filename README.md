@@ -8,9 +8,10 @@ constraint decides the whole design.
 
 ## The verdict on Bluetooth
 
-It cannot replace a guitar cable. Best case (LE Audio / LC3, both ends
-certified) is ~25–30 ms end to end; every commodity path is 40 ms or worse, and
-the silent default fallback is ~170 ms.
+Commodity Bluetooth cannot replace a guitar cable. The floor with LE Audio and a
+tuned presentation delay is roughly 17–20 ms before the speaker; typical
+consumer paths are 40 ms or worse, and the silent default fallback is ~170 ms.
+The breakdown, and the four knobs that control it, are in `DESIGN-BT.md`.
 
 End-to-end, including converters and the amp's input stage:
 
