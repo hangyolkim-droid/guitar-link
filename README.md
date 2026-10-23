@@ -29,6 +29,15 @@ Two things follow, and both are in `DESIGN.md`:
 - The most compatible interface on a consumer Bluetooth speaker is its **3.5 mm
   aux jack**: present on essentially every one, and 0 ms.
 
+## Documents
+
+| file | what it covers |
+|---|---|
+| `DESIGN.md` | latency measurements, per-rig calibration, the amp sim internals |
+| `DESIGN-BT.md` | LE Audio floor: the four knobs and the hardware that exposes them |
+| `BUILD.md` | purchasable-parts build: 2.4 GHz link, modeller, speaker aux |
+| `PRODUCT.md` | positioning, caveat strings, codec diagnosis, economics |
+
 ## Quick start
 
     make
